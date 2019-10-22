@@ -1,0 +1,44 @@
+{
+  "name": "crud-mern",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "react": "^16.10.2",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "nodemon index.js",
+    "web": "webpack --mode development --watch"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "nodemon": "^1.19.3",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
+}
